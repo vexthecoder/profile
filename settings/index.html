@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vexthecoder</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <section class="settings-page">
+        <h2>Select Theme</h2>
+        <div class="theme-options">
+            <button data-theme="default">Default</button>
+            <button data-theme="winter">Winter</button>
+            <button data-theme="echo">3kh0</button>
+            <button data-theme="lime">Lime</button>
+            <button data-theme="space">Space</button>
+            <button data-theme="molten">Molten</button>
+            <button data-theme="eaglenet">EagleNet</button>
+            <button data-theme="honey">Honey</button>
+            <button data-theme="swamp">Swamp</button>
+            <button data-theme="ruby">Ruby</button>
+            <button data-theme="squid">Squid</button>
+            <button data-theme="lemon">Lemon</button>
+            <!-- Continue for other themes -->
+        </div>
+
+        <h2>Custom Theme Editor</h2>
+        <form id="custom-theme-form">
+            <label for="background-color">Background Color:</label>
+            <input type="color" id="background-color" name="background" value="#ffffff"><br>
+
+            <label for="text-color">Text Color:</label>
+            <input type="color" id="text-color" name="text" value="#000000"><br>
+
+            <label for="primary-color">Primary Color:</label>
+            <input type="color" id="primary-color" name="primary" value="#0078d4"><br>
+
+            <label for="secondary-color">Secondary Color:</label>
+            <input type="color" id="secondary-color" name="secondary" value="#1f1f1f"><br>
+
+            <label for="font-family">Font:</label>
+            <select id="font-family" name="font">
+                <option value="Roboto">Roboto</option>
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="JetBrains Mono">JetBrains Mono</option>
+            </select><br>
+
+            <button type="submit">Save Custom Theme</button>
+        </form>
+    </section>
+</body>
+
+</html>

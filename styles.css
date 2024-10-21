@@ -1,0 +1,95 @@
+:root {
+    --primary: #0078d4;
+    --secondary: #1f1f1f;
+    --background: #ffffff;
+    --text: #000000;
+    --font: 'Roboto', sans-serif;
+  }
+  
+  body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .profile-page {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: var(--primary);
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    color: var(--secondary);
+  }
+  
+  .social-links a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-links a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links img {
+    width: 30px;
+  }
+  
+  .links {
+    margin-top: 30px;
+  }
+  
+  .links a {
+    display: inline-block;
+    margin: 0 20px;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Settings Page */
+  .settings-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .theme-options button {
+    background-color: var(--primary);
+    color: var(--text);
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .theme-options button:hover {
+    background-color: var(--secondary);
+  }
+  
+  form {
+    margin-top: 30px;
+  }
+  
+  form label {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  form input, form select {
+    margin: 5px;
+    padding: 5px;
+  }
+  
